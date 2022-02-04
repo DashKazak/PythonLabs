@@ -1,5 +1,3 @@
-from email import message
-
 
 def camelcase(sentence):
     title_case = sentence.title()
