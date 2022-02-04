@@ -11,7 +11,7 @@ def instructions():
 
 
 def banner():
-    """"Display program name"""
+    """"This is a banner for the camelcase program"""
     message = "awesome program!"
     stars = "*"* len(message)
     print(f'\n{stars}\n{message}\n{stars}')
