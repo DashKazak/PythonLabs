@@ -17,12 +17,16 @@ def banner():
     print(f'\n{stars}\n{message}\n{stars}')
 
 
+def thankyou():
+    print('Thank you for using the program!')
+
 def main():
     banner()
     instructions()
     sentence = input ('Enter your sentence: ')
     output = camelcase(sentence)
     print(output)
+    thankyou()
 
 if __name__ == '__main__':
     main()
